@@ -8,11 +8,15 @@
 import SwiftUI
 
 struct NQueensView: View {
-    @State private var viewModel = NQueensViewModel(
-        bestTimesService: BestTimesService(),
-        soundPlayer: SoundPlayer()
-    )
+    @State private var viewModel: NQueensViewModel
     @State private var showBestTimes = false
+    
+    init(
+        bestTimesService: BestTimesServiceProtocol = BestTimesService(),
+        soundPlayer: SoundPlaying = SoundPlayer()
+    ) {
+        self.viewModel = .init(bestTimesService: bestTimesService, soundPlayer: soundPlayer)
+    }
     
     var body: some View {
         ZStack {
