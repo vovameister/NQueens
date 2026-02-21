@@ -101,7 +101,3 @@ final class MockBestTimesService: BestTimesServiceProtocol, Sendable {
 ```
 
 This avoids data races in async tests while still letting tests assert on what was called.
-
-### In-Memory CoreData for Service Tests
-
-`BestTimesServiceTests` injects `MockBestTimesStore` instead of the real CoreData store, so no disk I/O happens during tests and each test starts with a clean slate.
