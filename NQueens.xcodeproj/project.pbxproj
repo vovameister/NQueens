@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		6FA992D92F48CD06000E8FCF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6FC0C7432F49E504009CF83B /* Запись экрана 2026-02-21 в 00.02.31.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Запись экрана 2026-02-21 в 00.02.31.mov"; sourceTree = "<group>"; };
+		6FC0C7432F49E504009CF83B /* intro-video.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "intro-video.mov"; sourceTree = "<group>"; };
 		6FEA32B32F4731A7006FD59A /* NQueens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NQueens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FEA32C02F4731A8006FD59A /* NQueensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NQueensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 				6FEA32C32F4731A8006FD59A /* NQueensTests */,
 				6FEA32B42F4731A7006FD59A /* Products */,
 				6FA992D92F48CD06000E8FCF /* README.md */,
-				6FC0C7432F49E504009CF83B /* Запись экрана 2026-02-21 в 00.02.31.mov */,
+				6FC0C7432F49E504009CF83B /* intro-video.mov */,
 			);
 			sourceTree = "<group>";
 		};
