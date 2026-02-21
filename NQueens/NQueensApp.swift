@@ -2,7 +2,7 @@
 //  NQueensApp.swift
 //  NQueens
 //
-//  Created by Владимир Клевцов on 19. 2. 2026..
+//  Created by Vladimir Klevtsov on 19. 2. 2026..
 //
 
 import SwiftUI
@@ -11,7 +11,8 @@ import SwiftUI
 struct NQueensApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NQueensView()
+                .preferredColorScheme(.light)
         }
     }
 }
